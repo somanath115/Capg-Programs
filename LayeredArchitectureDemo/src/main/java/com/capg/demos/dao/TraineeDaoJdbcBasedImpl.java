@@ -52,7 +52,7 @@ public class TraineeDaoJdbcBasedImpl implements TraineeDao {
 		ps=con.prepareStatement("delete from trainee where id=?");  
 		ps.setInt(1,id);    
 		int i=ps.executeUpdate();
-		System.out.println(i+" record deleted!!");
+		
 	}
 
 }
